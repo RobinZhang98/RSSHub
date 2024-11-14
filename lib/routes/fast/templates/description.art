@@ -1,0 +1,7 @@
+{{ if tips }}
+<b>Summary</b>：
+<p>{{ tips }}</p>
+{{ /if }}
+{{ if description }}
+{{@ description }}
+{{ /if }}
