@@ -1,5 +1,5 @@
 {{ if tips }}
-<b>摘要</b>：
+<b>Summary</b>：
 <p>{{ tips }}</p>
 {{ /if }}
 {{ if description }}
