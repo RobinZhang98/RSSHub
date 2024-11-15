@@ -28,7 +28,7 @@ export const route: Route = {
             source: ['fastbull.com/news', 'fastbull.com/'],
         },
     ],
-    name: '新闻',
+    name: 'News',
     maintainers: ['nczitzk'],
     handler,
     url: 'fastbull.com/news',
