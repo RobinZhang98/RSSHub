@@ -25,17 +25,17 @@ export const route: Route = {
     },
     radar: [
         {
-            source: ['fastbull.cn/news', 'fastbull.cn/'],
+            source: ['fastbull.com/news', 'fastbull.com/'],
         },
     ],
     name: '新闻',
     maintainers: ['nczitzk'],
     handler,
-    url: 'fastbull.cn/news',
+    url: 'fastbull.com/news',
 };
 
 async function handler() {
-    const rootUrl = 'https://www.fastbull.cn';
+    const rootUrl = 'https://www.fastbull.com';
     const currentUrl = `${rootUrl}/news`;
 
     const response = await got({
